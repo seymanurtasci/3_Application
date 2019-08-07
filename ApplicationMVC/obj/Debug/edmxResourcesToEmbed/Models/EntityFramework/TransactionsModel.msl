@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TransactionsModelStoreContainer" CdmEntityContainer="TransactionsDB">
+    <EntitySetMapping Name="Monthlies">
+      <EntityTypeMapping TypeName="TransactionsModel.Monthly">
+        <MappingFragment StoreEntitySet="Monthly">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="item" ColumnName="item" />
+          <ScalarProperty Name="money" ColumnName="money" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
